@@ -1,0 +1,193 @@
+* {
+    margin: 15px 15px 15px 15px auto;
+    padding: 1px auto;
+    box-sizing: border-box;
+}
+
+
+html {
+    height: 100%;
+    width: 100%;
+    padding: 0px auto;
+    background: rgb(248, 212, 228);
+    background: radial-gradient(circle, rgb(248, 179, 209) 0%, rgb(139, 64, 158) 75%);
+}
+
+
+.logo {
+    flex: auto;
+    align-items: center;
+    width: 80px;
+    margin: 2px;
+    float: left;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FBB1B9;
+    height: 15%;
+    padding: 10px;
+    image: url("../imagenes/Candados/muneco.gif");
+}
+
+
+.titulo {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+
+
+h1 {
+    color: #1e0327;
+    font-family: 'Finlandica', sans-serif;
+    -webkit-text-stroke: 1.8px #817892;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 3rem;
+    font-display: auto;
+}
+
+
+main {
+    padding: 20px;
+    position: relative;
+    margin: 0 auto;
+    border: 10px 10px 10px 10px auto;
+    padding: 0px auto;
+}
+
+
+.cajaDeMensaje {
+    width: 90%;
+    height: 60%;
+    display: block;
+    background: whitesmoke;
+    border: 3px;
+    border: #4f0a66;
+    border-radius: 50px;
+    font-family: 'Finlandica', sans-serif;
+    font-size: 25px;
+    margin: 10px 10px 10px 10px;
+}
+
+
+.txt_input {
+    width: 34%;
+    height: 40%;
+    background-color: whitesmoke;
+    border: 3px;
+    border: #4f0a66;
+    border-radius: 50px;
+    float: left;
+    font-size: 25px;
+    font-family: 'Finlandica', sans-serif;
+    padding: 4%;
+    margin: 2% 10px 2% 6%;
+}
+
+
+.text-input:focus {
+    border: none;
+    outline: none;
+}
+
+
+::placeholder {
+    color: slategray;
+    font-family: 'Finlandica', sans-serif;
+}
+
+
+.outMessage {
+    width: 34%;
+    height: 40%;
+    background-color: #FFFFFF;
+    border: 3px;
+    border: #4f0a66;
+    border-radius: 50px;
+    float: right;
+    font-size: 1em;
+    font-family: 'Finlandica', sans-serif;
+    font-weight: bolder;
+    color: #0f4855;
+    padding: 4%;
+    margin: 2% 6% 2% 1%;
+    background-image: url("../imagenes/Candados/candado.gif");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 60%;
+}
+
+
+.buttons {
+    display: inline-block;
+    margin: 2.5% 0 2.5% 2.5%;
+    width: 100%;
+}
+
+
+.encode_btn {
+    position: relative;
+    display: inline-block;
+    background: rgb(63, 251, 230);
+    background: linear-gradient(180deg, rgba(63, 251, 230, 0.4986832865168539) 10%, rgba(196, 23, 58, 0.4734023876404494) 90%);
+    border-radius: 15px;
+    font-family: 'Finlandica', sans-serif;
+    color: #0c0008;
+    font-weight: bold;
+    font-size: 1.3em;
+    width: 15%;
+    height: 2.5em;
+    margin-left: 2.5%;
+}
+
+
+.encode_btn:active {
+    background: linear-gradient(#D0D0D0, #F5E9CF);
+    box-shadow: 0 2px #666;
+    transform: translateY(1.5%);
+}
+
+
+#copy_btn {
+    position: relative;
+    background: rgb(63, 251, 230);
+    background: linear-gradient(180deg, rgba(63, 251, 230, 0.4986832865168539) 10%, rgba(196, 23, 58, 0.4734023876404494) 90%);
+    border-radius: 15px;
+    font-family: 'Finlandica', sans-serif;
+    color: #1c0213;
+    font-weight: bold;
+    font-size: 1.3em;
+    width: 15%;
+    height: 2.5em;
+    margin-left: 25%;
+}
+
+
+#copy_btn:active {
+    background: linear-gradient(#D0D0D0, #F5E9CF);
+    box-shadow: 0 2px #F5E9CF;
+    transform: translateY(1%);
+}
+
+
+footer {
+    position: relative;
+    margin: auto;
+    padding: 10px;
+    height: 20%;
+    background: #FBB1B9;
+    text-align: center;
+    font-family: 'Fanwood Text', serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: bold;
+    color: #8d6a6a;
+    -webkit-text-stroke: 1.8px #3f2036;
+    image: url("../imagenes/Logo/LogoGithub.png");
+}
